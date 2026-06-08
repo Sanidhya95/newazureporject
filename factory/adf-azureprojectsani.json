@@ -1,0 +1,15 @@
+{
+	"name": "adf-azureprojectsani",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "aeb2c448-487c-4d6c-b02a-47cfe292de53",
+		"tenantId": "4f2b44a9-3319-4319-88d5-3b2d4ba852a2"
+	}
+}
