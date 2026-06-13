@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-azureprojectsani"
+		},
+		"AzureDataLake_accountKey": {
+			"value": ""
+		},
+		"azure_sql_password": {
+			"value": ""
+		},
+		"AzureDataLake_properties_typeProperties_url": {
+			"value": "https://azurestoragesani.dfs.core.windows.net/"
+		},
+		"azure_sql_properties_typeProperties_server": {
+			"value": "sqlserversani.database.windows.net"
+		},
+		"azure_sql_properties_typeProperties_database": {
+			"value": "aznewprojectdbsani"
+		},
+		"azure_sql_properties_typeProperties_userName": {
+			"value": "adminsani"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
